@@ -2,7 +2,7 @@
 
 A comprehensive machine learning project for predicting weather trends in New York City using scikit-learn. This project demonstrates multiple ML algorithms, feature engineering, and model evaluation techniques applied to weather forecasting.
 
-## 🌤️ Project Overview
+## Project Overview
 
 This project uses historical weather data to train machine learning models capable of predicting temperature trends for NYC. It includes:
 
@@ -13,7 +13,7 @@ This project uses historical weather data to train machine learning models capab
 - **Future Predictions**: 7-day weather forecast capability
 - **User-Friendly Interface**: Both command-line and interactive modes
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 weather_ml_project/
@@ -35,7 +35,7 @@ weather_ml_project/
 └── README.md
 ```
 
-## 🚀 Getting Started
+## Start
 
 ### Prerequisites
 
@@ -82,7 +82,7 @@ weather_ml_project/
    python predict_weather.py --train
    ```
 
-## 🎯 Features
+## Features
 
 ### Data Generation
 - **Realistic Weather Patterns**: Generates 5 years of synthetic NYC weather data
@@ -115,7 +115,7 @@ Best results achieved with **Linear Regression** on lag features:
 - **R² Score**: 0.918
 - **MAE**: 4.55°F
 
-## 📊 Results & Visualizations
+## Results & Visualizations
 
 The project generates several informative visualizations:
 
@@ -163,7 +163,7 @@ predictions = predictor.predict_future_weather(days_ahead=7)
 print(predictions)
 ```
 
-## 🧪 Model Development Process
+## Model Development Process
 
 1. **Data Generation**: Create synthetic but realistic weather dataset
 2. **Exploratory Data Analysis**: Understand patterns and relationships
@@ -182,7 +182,7 @@ The models are evaluated using multiple metrics:
 - **R² Score**: Proportion of variance explained by the model
 - **Residual Analysis**: Checks for patterns in prediction errors
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 Potential improvements and extensions:
 
@@ -194,7 +194,7 @@ Potential improvements and extensions:
 - **Climate Analysis**: Long-term trend analysis and climate modeling
 - **Web Interface**: Flask/Django web application for broader access
 
-## 📚 Technical Details
+## Technical Details
 
 ### Dataset Features
 - **Date Range**: 2020-2024 (5 years, 1,827 observations)
@@ -207,27 +207,3 @@ Potential improvements and extensions:
 - **Cross-Validation**: 5-fold CV for hyperparameter tuning
 - **Train/Test Split**: 80/20 split with temporal ordering preserved
 
-## 🤝 Contributing
-
-This project is designed as a learning exercise and demonstration of ML techniques. Areas for contribution:
-
-1. **Real Data Integration**: Connect to actual weather APIs
-2. **Advanced Models**: Implement neural networks or ensemble methods
-3. **Feature Enhancement**: Add new predictive features
-4. **UI Improvements**: Better visualization and user interface
-5. **Testing**: Add unit tests and validation scripts
-
-## 📄 License
-
-This project is created for educational purposes and demonstrates machine learning applications in weather prediction.
-
-## 🙏 Acknowledgments
-
-- **Scikit-learn**: For providing excellent ML algorithms and tools
-- **Pandas/NumPy**: For powerful data manipulation capabilities  
-- **Matplotlib/Seaborn**: For creating informative visualizations
-- **Weather Science**: Inspired by meteorological forecasting techniques
-
----
-
-**Happy Weather Predicting! 🌤️📊**
